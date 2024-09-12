@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "youngserif-regular";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    background-color: white;
+    margin: 10% auto ;
+    width: 50%;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;
+}
+
+h1{
+    font-family: "youngserif-regular";
+    font-size: 3rem;
+    font-weight: lighter;
+}
