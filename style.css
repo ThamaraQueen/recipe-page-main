@@ -2,6 +2,10 @@
     font-family: "youngserif-regular";
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
+@font-face {
+    font-family: "outfit-variablefont_wght";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
 
 body{
     background-color: hsl(30, 54%, 90%);
@@ -11,14 +15,14 @@ body{
     background-color: white;
     margin: 10% auto ;
     width: 50%;
-    padding: 40px;
-    border-radius: 25px;
+    padding: 45px;
+    border-radius: 20px;
 }
 
 img{
     object-fit: cover;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 h1{
@@ -26,3 +30,121 @@ h1{
     font-size: 3rem;
     font-weight: lighter;
 }
+
+h2{
+    font-family: "youngserif-regular";
+    font-size: 2rem;
+    font-weight: lighter;
+    color: hsl(14, 45%, 36%);
+}
+
+p, h3, li{
+    font-family: "outfit-variablefont_wght";
+    color: hsl(30, 10%, 34%);
+}
+
+ul > li{
+    margin:  20px auto;
+    padding-left: 1.5rem;
+}
+
+ol > li{
+    margin:  15px auto;
+    padding-left: 1.5rem;
+}
+
+li::marker{
+    color: hsl(332, 51%, 32%);
+    padding-right: 20px;
+}
+
+.box{
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px auto ;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+div.box > h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.5rem;
+}
+
+div.box > li{
+    color: hsl(24, 5%, 18%);
+    
+}
+
+hr{
+    margin: 50px auto;
+    background-color: hsl(30, 10%, 34%);
+}
+
+table{
+    font-family: "outfit-variablefont_wght";
+    color: hsl(30, 10%, 34%);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 1px solid #ddd;
+    
+    padding: 15px;
+}
+
+tr{
+    text-align: left;
+}
+
+.attribution{
+    font-family: "outfit-variablefont_wght";
+    color: hsl(30, 10%, 34%);
+    text-align: center; 
+    margin-top: 20px;
+}
+
+@media (max-width: 430px) {
+    body{
+        margin: 0px;
+        
+    }
+    .container {
+        margin: 0; 
+        padding: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .responsive{
+        padding: 35px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+    }
+
+    .box {
+        margin: 15px 0; 
+        padding: 15px; 
+    }
+
+    div.box > h3 {
+        font-size: 1.125rem; 
+    }
+
+    td {
+        padding: 8px;
+    }
+}
+
